@@ -1,0 +1,30 @@
+body{
+    min-height:135vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(header/DICT.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+    background-attachment: fixed;
+}
+
+
+@media print {
+    #print-btn,
+    #back-btn,
+    #nav {
+        display: none;
+    }
+    html,
+    body {
+        zoom: 58.8%;
+        margin: 0;
+        padding: none;
+    }
+    @page {
+        size: Legal landscape;
+        max-height: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+}

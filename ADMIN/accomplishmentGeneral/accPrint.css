@@ -1,0 +1,19 @@
+@media print {
+    #print-btn,
+    #back-btn,
+    #nav {
+        display: none;
+    }
+    html,
+    body {
+        zoom: 70%;
+        margin: 0;
+        padding: none;
+    }
+    @page {
+        size: Legal landscape;
+        max-height: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+}
