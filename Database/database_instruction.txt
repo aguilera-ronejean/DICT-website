@@ -1,0 +1,9 @@
+
+
+*Create one main database named dict
+
+*Export database to this folder
+
+*push all commited files 
+
+*For other users, fetch the files then import the database file to their local database
