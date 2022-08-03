@@ -1,0 +1,51 @@
+.tables{
+    padding: 1%;
+    background-color: white;
+    opacity: 0.9;
+    position: relative;
+    width: 98%;
+    margin: auto;
+    top: -150px;
+}
+.tables h3{
+    text-align: center;
+}
+body{
+    min-height:135vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(DICT.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    
+
+}
+
+
+
+
+
+@media (max-width: 600px){
+  .tables{
+    padding: 1%;
+    background-color: white;
+    opacity: 0.9;
+    position: relative;
+    width: 98%;
+    margin: auto;
+    margin-top: -70%;
+}
+.tables h3{
+    margin-left: 5%;
+    text-align: center;
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/DICT.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+
+}
+}
