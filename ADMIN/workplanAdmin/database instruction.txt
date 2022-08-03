@@ -1,0 +1,2 @@
+*in phpMyAdmin create a database named workplan_database
+*import the workplan_database.sql

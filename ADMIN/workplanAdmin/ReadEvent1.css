@@ -1,0 +1,71 @@
+.tables{
+    padding: 1%;
+    background-color: white;
+    opacity: 0.9;
+    bottom: -15%;
+    position: relative;
+    width: 90%;
+    top: 15%;
+    margin: auto;
+}
+.tables h3{
+    text-align: center;
+}
+body{
+    max-height:135vh;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(header/images/DICT.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+    z-index: 10;
+    background-attachment: fixed;
+}
+#edit{ 
+    background-color: #F8EA8C;
+    width: 60px;
+    border: none;
+}
+#delete{
+    background-color: #d63638;
+    color: white;
+    border: none;
+    width: 60px;
+}
+#create{
+    background-color: #3b973b;
+    color: white;
+    width: 70px;
+    border: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    .tables{
+    padding: 1%;
+    background-color: white;
+    opacity: 0.9;
+    position: relative;
+    z-index: -1;
+    width: 95%;
+    top: 20px;
+    margin: auto;
+}
+.tables h3{
+    margin-left: 5%;
+    text-align: center;
+}
+    body{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(header/images/DICT.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+
+}

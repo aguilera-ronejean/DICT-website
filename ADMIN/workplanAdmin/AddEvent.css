@@ -1,0 +1,231 @@
+
+h3{
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration-line: underline;
+  font-size: 1.3em;
+}
+body{
+  min-height: 135vh;
+  width:100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(header/images/DICT.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.form1{
+  width: 500px;
+  height: 1600px;
+  margin: auto;
+  top: 10%;
+  position: relative;
+  background: #1e475f;
+  padding: 75px 20px;
+  border-radius: 0px;
+  color: white;
+  text-align: left;
+  border: 5px solid rgb(0, 0, 0);
+}
+.startTime{
+  width: 100%;
+}
+.endTime{
+  width: 100%;
+}
+.duration{
+  width: 100%;
+}
+.location{
+  width: 100%;
+}
+.details{
+  width: 100%;
+}
+.resource{
+  width: 100%;
+}
+.partner{
+  width: 100%;
+}
+.executive{
+  width: 100%;
+}
+.lc3Cat{
+  width: 100%;
+}
+.access{
+  width: 100%;
+}
+.cat{
+  width: 100%;
+}
+.proj{
+  width: 100%;
+}
+.prov{
+  width: 100%;
+}
+.tar{
+  width: 100%;
+}
+.ict{
+  width: 100%;
+}
+.mod{
+  width: 100%;
+}
+.stat{
+  width: 100%;
+}
+
+
+
+textarea{
+  font-size: 14px;
+  width: 100%;
+  height: 75px;
+  margin: auto;
+  margin-top: 6px;
+  margin-left: 0%;
+  border-radius: 1px;
+  background: #FFFFFF;
+  resize: none;
+ 
+}
+
+input[type="submit"]{
+  background: #1e475f;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity .3s ease;
+  border-radius: 15px;
+  width: 130px;
+  height: 50px;
+  margin-top: 60px;
+  left: 28%;
+  transform: translate(-50%,-50%);
+  position: relative;
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+
+}
+input[type="submit"]:hover{
+  opacity: 1;
+}
+
+input[type="submit_1"]{
+  background: #1e475f;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity .3s ease;
+  border-radius: 15px;
+  width: 130px;
+  height: 50px;
+  margin-top: 35px;
+  left: 40%;
+  transform: translate(-50%,-50%);
+  position: relative;
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+input[type="submit_1"]:hover{
+  opacity: 1;
+}
+
+#invite3{
+  display: none;
+  color: #1e475f;
+}
+
+
+
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 480px) {
+  .column {
+    width: 100%;
+    text-align: center;
+  }
+
+h3{
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration-line: underline;
+  font-size: 1.1em;
+}
+
+.form1{
+  width: 80%;
+  height: 1550px;
+  margin: auto;
+  top: 5%;
+  position: relative;
+  background: #1e475f;
+  padding: 20px 20px;
+  border-radius: 0px;
+  color: white;
+  text-align: left;
+  border: 5px solid rgb(0, 0, 0);
+}
+
+textarea{
+  font-size: 1px;
+  width: 100%;
+  height: 65px;
+  margin-top: .5px;
+  border-radius: 1px;
+  background: #FFFFFF;
+  resize: none;
+ 
+}
+
+input[type="submit"]{
+  background: #1e475f;
+  color: white;
+  font-size: 0.9em;
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity .3s ease;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  margin: 40px auto;
+  transform: translate(-50%,-50%);
+  position: relative;
+  text-align: center;
+
+}
+input[type="submit"]:hover{
+  opacity: 1;
+}
+
+input[type="submit_1"]{
+  background: #1e475f;
+  color: white;
+  font-size: 0.9em;
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity .3s ease;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  transform: translate(-50%,-50%);
+  position: relative;
+  text-align: center;
+}
+
+input[type="submit_1"]:hover{
+  opacity: 1;
+}
+
+}
