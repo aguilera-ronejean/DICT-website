@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  font-family: "Open Sans";
+  color: white;
+  position: center;
+}
+h3{
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 450px;
+  transform: translate(-50%,-50%);
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+  width: 380px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #000;
+}
+
+
+input[type="password"]{
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: black;
+  border: none;
+  outline: none;
+  margin: 1em 0;
+ 
+}
+input[type="submit"]{
+  background: #990E2A;
+  color: #fff;
+  font-size: 1.1em;
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity .3s ease;
+  border-radius: 12px;
+  width: 220px;
+  height: 40px;
+  margin-top: 13px;
+  left: 35%;
+  transform: translate(-50%,-50%);
+  position: relative;
+  text-align: center;
+}
+
+input[type="submit"]:hover{
+  background: #042444;
+  opacity: 1;
+}
+
+
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 600px){
+  body{
+  font-family: "Open Sans";
+  color: white;
+  position: center;
+}
+h3{
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 480px;
+  transform: translate(-50%,-50%);
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5));
+  width: 380px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #000;
+}
+
+
+input[type="password"]{
+  width: 100%;
+  display: block;
+  padding: 10px;
+  color: black;
+  border: none;
+  outline: none;
+  margin: 1em 0;
+ 
+}
+input[type="submit"]{
+  background: #990E2A;
+  color: #fff;
+  font-size: 1.1em;
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity .3s ease;
+  border-radius: 12px;
+  width: 220px;
+  height: 35px;
+  margin-top: 13px;
+  left: 35%;
+  transform: translate(-50%,-50%);
+  position: relative;
+  text-align: center;
+}
+
+input[type="submit"]:hover{
+  opacity: 1;
+}

@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+.header{
+	max-height:135vh;
+	width:100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/DICT.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	padding: 2% 6%;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+	height: 60px;
+}
+nav img{
+	width: 300px;
+}
+.nav-links{
+	padding: 0;
+	margin: 0 auto;
+	float: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	font-size: 15px;
+	z-index: 20;
+}
+.nav-links ul li a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding:  0 15px;
+	line-height:  50px;
+}
+.nav-links ul li a:hover{
+	background: rgb(20, 138, 20);
+}
+.nav-links ul ul{
+	position: absolute;
+	top: 50px;
+	display: none;
+	margin-left: -30px;
+}
+.nav-links ul li:hover > ul{
+	display: block;
+}
+nav-links ul ul li{
+	width: 100%;
+	float: none;
+	display: none;
+	position: relative;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #2196F3;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width:100%;
+}
+
+.text-box h1{
+	font-size: 35px;
+}
+.text-box p{
+	margin: 10px 0 40 px;
+	font-size: 14px;
+	color: #fff;
+}
+nav .fa{
+	display: none;
+}

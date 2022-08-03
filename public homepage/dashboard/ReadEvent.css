@@ -1,0 +1,72 @@
+.tables{
+    padding: 1%;
+    background-color: white;
+    opacity: 0.9;
+    bottom: -15%;
+    position: relative;
+    width: 1270px;
+    margin: 2% auto; 
+}
+.tables h3{
+    text-align: center;
+}
+body{
+    min-height:135vh;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../../images/DICT.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+    z-index: 10;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+#edit{ 
+    background-color: #F8EA8C;
+    width: 60px;
+    border: none;
+}
+#delete{
+    background-color: #d63638;
+    color: white;
+    border: none;
+    width: 60px;
+}
+#create{
+    background-color: #3b973b;
+    color: white;
+    width: 70px;
+    border: none;
+}
+
+.hide_button{
+    display: none;
+}
+
+input[type='submit']:hover{
+	opacity: 0.9px;
+	background-color: rgba(0, 0, 0, 0.473);
+	color: white;
+	
+}
+input[type='button']{
+	width: 100px;
+	font-family: sans-serif;
+	height: 35px;
+	border-radius: 10px;
+	font-size: 18px;
+	background-color: white;
+	border-color:grey;
+	margin-top: 1%;
+}
+
+input[type='button']:hover{
+	opacity: 0.9px;
+	background-color: rgba(0, 0, 0, 0.473);
+	color: white;
+	
+}
+
+
+
+
+

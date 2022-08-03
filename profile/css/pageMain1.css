@@ -1,0 +1,248 @@
+.text-box{
+    width: 100%;
+    color: black;
+    position: relative;
+    margin-top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.text-box h1{
+    font-size: 35x;
+}
+.text-box p{
+    margin: 10px 0 40 px;
+    font-size: 14px;
+    color: #fff;
+}
+.profilebox .card {
+    border-radius: 10px;
+    opacity: 90%;
+    border: 5px solid;
+    height: 350px;
+}
+.profilebox .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+.profilebox .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.profilebox .card p {
+    font-size: 16px;
+    color: black;
+}
+.profilebox .card a {
+    font-size: 16px;
+    color: #840032;
+    text-decoration: none;
+}
+.profilebox .table th,
+.profilebox .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: black;
+}
+form .drop{
+    width: 100%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+
+#repo1{
+    margin-left: auto;
+
+}
+#repo2{
+    margin-right: auto;
+}
+
+.column {
+  width: 300px;
+  flex-basis: 19%;
+  position: relative;
+  padding: 10px;
+  margin-right: 5px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+.drop1{
+    margin-top: 10px;
+}
+.drop2{
+    margin-top: 10px;
+
+}
+.drop3{
+    margin-top: 10px;
+
+}
+.drop4{
+    margin-top: 10px;
+
+}
+.drop5{
+    margin-top: 10px;
+
+}
+.drop6{
+    margin-top: 10px;
+}
+.drop7{
+    margin-top: 10px;
+
+}
+.drop8{
+    margin-top: 10px;
+
+}
+.drop9{
+    margin-top: 10px;
+
+}
+.drop10{
+    margin-top: 10px;
+
+}
+.drop11{
+    margin-top: 10px;
+
+}
+.drop12{
+    margin-top: 10px;
+
+}
+.drop13{
+    margin-top: 10px;
+
+}
+.drop14{
+    margin-top: 10px;
+
+}
+.drop15{
+    margin-top: 10px;
+
+}
+.drop16{
+    margin-top: 10px;
+
+}
+.drop17{
+    margin-top: 10px;
+
+}
+.drop18{
+    margin-top: 10px;
+
+}
+.drop19{
+    margin-top: 10px;
+
+}
+.drop20{
+    margin-top: 10px;
+}
+.h50{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+.dropdown input[type="button"]{
+    border: none;
+    padding: 8px 16px;
+    background-color: aquamarine;
+    color: black;
+    transition: 3s;
+    position: relative;
+    border-radius: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 100%;
+}
+.dropdown {
+    margin-left: 12%; 
+    margin-right:10%;
+
+}
+
+
+
+
+
+
+
+@media(max-width: 480px){
+    .text-box{
+    width: 100%;
+    color: black;
+    position: relative;
+    margin: auto;
+    top: -25%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    
+}
+.dropdown input[type="button"]{
+    width: 100%;
+    font-weight: bold;
+}
+
+
+.column {
+  text-align: center;
+  width: 80%;
+  position: relative;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 10px ;
+  
+
+}
+#repo1{
+    margin-left: 30%;
+
+}
+
+.drop2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.h50{
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    font-weight: bold;
+
+
+}
+.dropdown{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+
+}

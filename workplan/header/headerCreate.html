@@ -1,0 +1,87 @@
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Create</title>
+	<link rel="stylesheet" href="header2.css">
+	<link rel="stylesheet" href="header/mobile1.css">
+	<link rel="stylesheet" href="page1.css">
+
+	<link rel="icon" href="header/images/titlelogo.png" type="image/x-icon">
+	
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>  
+	
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+
+</head>
+<body>
+	<section class="header">
+		<nav>
+			
+			<a href="#"><img src="header/images/DICT.png"></a>
+			<div class="nav-links" id="navLinks">
+			
+			<i class="fa fa-bars" onclick="hideMenu()">
+			
+			
+			</i>
+			
+			
+				<ul>
+					<li><a href="../dashboard/homepage/home.php">HOME</a></li>
+					</li>
+					<li><a href="#">ACCOMPLISHMENT</a>
+					<ul>
+						<li><a href="../ADMIN/accomplishmentGeneralUser/acc_General_User.php">General Accomplishments</a></li>
+						<li><a href="../ADMIN/accomplishmentUser/acc_User.php">Training Accomplishments</a></li>
+					</ul></li>
+					<li><a href="#">TASKS</a>
+						<ul>
+							<li><a href="ReadEvent.php">WORKPLAN</a></li>
+							<li><a href="../ADMIN/reportgeneration/reportgeneration.php">REPORT ANALYTICS</a></li>
+						</ul>
+					</li>
+					<li><a href="#">ACCOUNT</a>
+						<ul>
+							<li><a href="../profile/mainprofile.php">PROFILE</a></li>
+							<li><a href="../login/logout.php">LOGOUT</a></li>
+						</ul>
+					</li>
+				</ul>
+			
+			
+			</div>
+			<i class="fa fa-bars" style="margin-top: -40px;" onclick="showMenu()"></i>
+			
+		</nav>
+		
+
+	
+<!--header end-->
+	
+
+
+
+
+	</section>
+	
+
+<!-----Javascript------>
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right= "0";
+	}
+	function hideMenu(){
+	navLinks.style.right= "-200px";
+	
+	}
+</script>	
+	
+</body>
+</html>
